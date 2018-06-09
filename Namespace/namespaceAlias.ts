@@ -1,5 +1,6 @@
 ///<reference path="myNameSpace.ts"/>
 
-import theNameSpaceFunction = myNameSpace.displayData;
+import { myNameSpace } from './myNameSpace'
+let theNameSpaceFunction = myNameSpace.displayData;
 
 console.log(theNameSpaceFunction());
