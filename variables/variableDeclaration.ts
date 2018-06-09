@@ -9,4 +9,7 @@ function declareTypes() {
     // Enums
     enum Color { Red = 1, Green = 2, Blue =3 } // Default values are index-based i.e., Red -> 0 , Green -> 1 etc
     let backgroundColor = Color.Green;
+
+    // Defining An Object with Type Annotation
+    let point : { x: number, y: number };
 }
